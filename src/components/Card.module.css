@@ -1,0 +1,42 @@
+.Card {
+    /* border: 1px solid red; */
+    width:290px;
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba( 94, 62, 62, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba(100, 48, 52, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+.Card:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.009);
+    box-shadow: 0 8px 32px 0 rgba(112, 60, 60, 0.37);
+}
+
+.CardImage {
+    /* border: 1px solid red; */
+    width:260px;
+    height:260px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.CardImage img {
+    flex: 1 1 0;
+  }
+  
+.CardOutter {
+    /* border: 1px solid rgb(110, 236, 99); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
