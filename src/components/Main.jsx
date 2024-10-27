@@ -20,7 +20,7 @@ export default function Main() {
         <div className={style.MainHeader}>
           <div className={style.HeaderRight}>
             <h1>Coffee Memory Game</h1>
-            <p>Get points by clicking on an image but don't click on any more than once!</p>
+            <p>Get points by clicking on an image but don't click on any of the pictures more than once!</p>
           </div>
           <div className={style.HeaderLeft}>
             <p>score: {score}</p>
