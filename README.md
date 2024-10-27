@@ -1,8 +1,11 @@
-#Memory Card Game
-#Project Overview
+![Screenshot 2024-10-27 at 17 48 11](https://github.com/user-attachments/assets/e6e4db92-9bff-4055-ac03-13f790e8e6da)
+
+
+# Memory Card Game
+# Project Overview
 
 The Memory Card Game is a React-based application where users test their memory by clicking on cards representing coffee types. The objective is to remember which cards have been clicked and avoid selecting the same card twice. After each selection, the cards are shuffled to add an extra challenge to the game. The project leverages the Sample Coffee API to dynamically load coffee images and details for the cards.
-Table of Contents
+# Table of Contents
 
     Features
     Installation
@@ -11,7 +14,7 @@ Table of Contents
     Technologies Used
     Future Improvements
 
-Features
+# Features
 
     Dynamic Card Loading: Coffee card data is fetched from an external API.
     Memory Game Logic: Users click on each card without repeating selections.
@@ -24,14 +27,14 @@ Installation
 
     bash
 
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/ayuboketch/project-memory-card)
 cd memory-card-game
 
 Install dependencies:
 
 bash
 
-npm install
+    npm install
 
 Run the application:
 
@@ -61,14 +64,14 @@ src
 ├── App.js               # Main app component
 └── index.js             # Entry point for the React app
 
-Technologies Used
+# Technologies Used
 
     React: Component-based UI library.
     JavaScript: For interactive logic.
     CSS Modules: Scoped styling for components.
     Sample Coffee API: External API for coffee card data.
 
-Future Improvements
+# Future Improvements
 
     Enhanced Scoring System: Introduce levels or points based on speed or consecutive correct selections.
     Game Levels: Implement levels with increasing difficulty or number of cards.
@@ -77,5 +80,3 @@ Future Improvements
 Acknowledgments
 
 Special thanks to Sample APIs for providing coffee data for this project.
-
-# React + Vite
